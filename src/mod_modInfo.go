@@ -84,7 +84,7 @@ func (modInfoList *ModInfoList) listInstalledMods() error {
 						break
 					}
 
-					baseDependency = strings.Split(dependency, "=")[1]
+					baseDependency = strings.Split(dependency, "base ")[1]
 					break
 				}
 			}
